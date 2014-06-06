@@ -1,0 +1,75 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+.box {
+	display:block;
+	height:auto;
+	overflow:hidden;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.fcenter {
+	margin:0 auto;
+}
+.fwidth {
+	width:100%;
+}
+.fheight {
+	height:100%;
+}
+*, p, a {
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+.ocultar {
+	display:none;
+	visibility:hidden;
+}
+.mostrar {
+	display:block;
+	visibility:visible;
+}
+
+button.subircarnet, button.encontrarcarnet {
+	font-size:200%;
+	margin-bottom:20px;
+	color:#FFF;
+	background:#333333;
+}
+
+
+.div-encontre label, .div-encontre input, .div-perdi label, .div-perdi input {
+	display:block;
+	width:100%;
+	margin:30px 0px;
+	height:auto;
+}
+.div-perdi input, .div-encontre input {
+	padding:10px;
+}
+.div-encontre input[type="submit"], .div-perdi input[type="submit"] {
+	border:0px;
+	border-radius:12px;
+	padding:10px 0px;
+}
+
+#error {
+	color:#cc0000;
+}
+#exito {
+	color:#33cc00;
+}
+button.abierto {
+	background-color:#EBEBEB;
+	border-color:#ABABAB;
+	color:#333;
+}
