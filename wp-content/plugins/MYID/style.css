@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 /* CSS Document */
 
@@ -44,17 +43,25 @@ button.subircarnet, button.encontrarcarnet {
 	margin-bottom:20px;
 	color:#FFF;
 	background:#333333;
+	outline:none!important;
 }
+
+button.subircarnet:hover, button.encontrarcarnet:hover, button.subircarnet:active, button.encontrarcarnet:active {
+	outline:none!important;
+}
+
 
 
 .div-encontre label, .div-encontre input, .div-perdi label, .div-perdi input {
 	display:block;
 	width:100%;
-	margin:30px 0px;
+	margin-top:10px;
 	height:auto;
+	text-align:left;
 }
 .div-perdi input, .div-encontre input {
 	padding:10px;
+	text-align:center;
 }
 .div-encontre input[type="submit"], .div-perdi input[type="submit"] {
 	border:0px;

@@ -155,7 +155,7 @@ CREATE TABLE IF NOT EXISTS `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost:8888/perdielcarnet', 'yes'),
+(1, 'siteurl', 'http://localhost/perdielcarnet', 'yes'),
 (2, 'blogname', 'Perdí el Carnet', 'yes'),
 (3, 'blogdescription', '', 'yes'),
 (4, 'users_can_register', '0', 'yes'),
@@ -187,7 +187,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (34, 'blog_charset', 'UTF-8', 'yes'),
 (35, 'moderation_keys', '', 'no'),
 (36, 'active_plugins', 'a:2:{i:0;s:14:"MYID/hello.php";i:1;s:45:"limit-login-attempts/limit-login-attempts.php";}', 'yes'),
-(37, 'home', 'http://localhost:8888/perdielcarnet', 'yes'),
+(37, 'home', 'http://localhost/perdielcarnet', 'yes'),
 (38, 'category_base', '', 'yes'),
 (39, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (40, 'advanced_edit', '0', 'yes'),
@@ -363,11 +363,11 @@ CREATE TABLE IF NOT EXISTS `wp_posts` (
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(1, 1, '2014-05-31 10:00:37', '2014-05-31 10:00:37', 'Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2014-05-31 10:00:37', '2014-05-31 10:00:37', '', 0, 'http://localhost:8888/perdielcarnet/?p=1', 0, 'post', '', 1),
-(2, 1, '2014-05-31 10:00:37', '2014-05-31 10:00:37', '[hwelost]', 'Carnet', '', 'publish', 'open', 'closed', '', 'carnet', '', '', '2014-05-31 15:16:51', '2014-05-31 15:16:51', '', 0, 'http://localhost:8888/perdielcarnet/?page_id=2', 0, 'page', '', 0),
-(3, 1, '2014-05-31 15:07:07', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2014-05-31 15:07:07', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/perdielcarnet/?p=3', 0, 'post', '', 0),
-(4, 1, '2014-05-31 15:11:06', '2014-05-31 15:11:06', 'This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.', 'Carnet', '', 'inherit', 'open', 'open', '', '2-revision-v1', '', '', '2014-05-31 15:11:06', '2014-05-31 15:11:06', '', 2, 'http://localhost:8888/perdielcarnet/uncategorized/2-revision-v1/', 0, 'revision', '', 0),
-(5, 1, '2014-05-31 15:11:18', '2014-05-31 15:11:18', '[hwelost]', 'Carnet', '', 'inherit', 'open', 'open', '', '2-revision-v1', '', '', '2014-05-31 15:11:18', '2014-05-31 15:11:18', '', 2, 'http://localhost:8888/perdielcarnet/uncategorized/2-revision-v1/', 0, 'revision', '', 0);
+(1, 1, '2014-05-31 10:00:37', '2014-05-31 10:00:37', 'Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2014-05-31 10:00:37', '2014-05-31 10:00:37', '', 0, 'http://localhost/perdielcarnet/?p=1', 0, 'post', '', 1),
+(2, 1, '2014-05-31 10:00:37', '2014-05-31 10:00:37', '[hwelost]', 'Carnet', '', 'publish', 'open', 'closed', '', 'carnet', '', '', '2014-05-31 15:16:51', '2014-05-31 15:16:51', '', 0, 'http://localhost/perdielcarnet/?page_id=2', 0, 'page', '', 0),
+(3, 1, '2014-05-31 15:07:07', '0000-00-00 00:00:00', '', 'Borrador automático', '', 'auto-draft', 'open', 'open', '', '', '', '', '2014-05-31 15:07:07', '0000-00-00 00:00:00', '', 0, 'http://localhost/perdielcarnet/?p=3', 0, 'post', '', 0),
+(4, 1, '2014-05-31 15:11:06', '2014-05-31 15:11:06', 'This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress.', 'Carnet', '', 'inherit', 'open', 'open', '', '2-revision-v1', '', '', '2014-05-31 15:11:06', '2014-05-31 15:11:06', '', 2, 'http://localhost/perdielcarnet/uncategorized/2-revision-v1/', 0, 'revision', '', 0),
+(5, 1, '2014-05-31 15:11:18', '2014-05-31 15:11:18', '[hwelost]', 'Carnet', '', 'inherit', 'open', 'open', '', '2-revision-v1', '', '', '2014-05-31 15:11:18', '2014-05-31 15:11:18', '', 2, 'http://localhost/perdielcarnet/uncategorized/2-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
