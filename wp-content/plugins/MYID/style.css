@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body {
+	background:url(../../themes/bootstrapwp/img/fondo.jpg) center center repeat;
+}
+{}
 .box {
 	display:block;
 	height:auto;
@@ -38,18 +41,48 @@ a {
 	visibility:visible;
 }
 
+
 button.subircarnet, button.encontrarcarnet {
-	font-size:200%;
+	position: relative;
+    color: rgba(255,255,255,1)!important;
+    text-decoration: none;
+    background-color: rgba(219,87,5,1)!important;
+    font-weight: 700;
+    font-size: 200%;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	width: 100%;
+	text-align: center;
 	margin-bottom:20px;
-	color:#FFF;
-	background:#333333;
 	outline:none!important;
+	border-color:rgba(219,87,5,1)!important;
+	
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
 }
 
-button.subircarnet:hover, button.encontrarcarnet:hover, button.subircarnet:active, button.encontrarcarnet:active {
+button.subircarnet:hover, button.encontrarcarnet:hover, button.subircarnet:active, button.encontrarcarnet:active, button.abierto {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 2px;
 	outline:none!important;
+    background-color: rgba(219,87,5,1)!important;
+	color:#FFF!important;
+	border-color:rgba(219,87,5,1)!important;
+	
 }
-
 
 
 .div-encontre label, .div-encontre input, .div-perdi label, .div-perdi input {
@@ -74,9 +107,4 @@ button.subircarnet:hover, button.encontrarcarnet:hover, button.subircarnet:activ
 }
 #exito {
 	color:#33cc00;
-}
-button.abierto {
-	background-color:#EBEBEB;
-	border-color:#ABABAB;
-	color:#333;
 }
