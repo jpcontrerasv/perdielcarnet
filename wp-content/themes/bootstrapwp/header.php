@@ -29,7 +29,7 @@
 <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
    <div class="col-lg-10 col-lg-offset-1 text-center">
             <h1><?php bloginfo('name'); ?></h1>
-            <h2>Lo único peor que perder el carnet es tener que ir a sacar uno nuevo.<br> Traigamos la sana tradición republicana de poner los carnets extraviados en la vitrina de los almacenes al siglo XXI.</h2>
+            <h2>Lo único peor que <span>perder el carnet</span> es tener que ir a sacar uno nuevo.<br> Traigamos la sana tradición republicana de poner los carnets extraviados en la vitrina de los almacenes al siglo XXI.</h2>
     </div>
 
     <!-- End Header. Begin Template Content -->

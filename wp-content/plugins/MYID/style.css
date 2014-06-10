@@ -47,12 +47,15 @@ body h2 {
 	color:#FFF;
 	font-family:"ff-enzo-web";
 	margin-top:50px;
-	font-weight:900;
+	font-weight:700;
+}
+body h2 span {
+	text-decoration:underline;
 }
 .content {
 	padding:20px 0px 0px 0px;
 	font-family:"ff-enzo-web";
-	font-weight:300;
+	font-weight:600;
 }
 button.subircarnet, button.encontrarcarnet {
 	position: relative;
