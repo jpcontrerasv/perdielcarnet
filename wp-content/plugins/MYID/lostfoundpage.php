@@ -172,7 +172,7 @@ mail("contacto@perdielcarnet.cl","My subject","sdfs",$headers);*/
         </div>
         
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-             <button type="button" class="btn btn-default fwidth subircarnet">Encontré un carnet</button>
+             <button type="button" class="btn btn-default fwidth subircarnet">Encontré un Carnet</button>
              
              <div class="box fwidth div-encontre" style="display:none;">
              	<form method="post">
