@@ -155,6 +155,7 @@ mail("contacto@perdielcarnet.cl","My subject","sdfs",$headers);*/
              
              <div class="box fwidth div-perdi" style="display:none;">
 			 <form id="formperdido" method="post">
+             <!--comentario-->
              	<label for="rutperdido">Ingresa el rut de tu carnet perdido</label>
              	<input type="text" name="rutperdido" id="rutperdido" placeholder="Ej: 15.962.195-2" class="required rut">  
 
