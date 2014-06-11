@@ -165,10 +165,6 @@ mail("contacto@perdielcarnet.cl","My subject","sdfs",$headers);*/
                 <input type="submit" name="hwesubmit" class="suerte" value="Voy a tener suerte">
 			</form>
 			</div>
-          
-            
-            
-            
         </div>
         
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">

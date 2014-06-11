@@ -43,13 +43,14 @@ a {
 body h1 {
 	text-indent:-90000000px;
 }
-body h2 {
+body h3 {
 	color:#FFF;
 	font-family:"ff-enzo-web";
-	margin-top:50px;
+	margin-top:100px;
 	font-weight:700;
+	margin-bottom:50px;
 }
-body h2 span {
+body h3 span {
 	text-decoration:underline;
 }
 .content {
@@ -96,7 +97,6 @@ button.subircarnet:hover, button.encontrarcarnet:hover, button.subircarnet:activ
     background-color: rgba(219,87,5,1)!important;
 	color:#FFF!important;
 	border-color:rgba(219,87,5,1)!important;
-	
 }
 
 
@@ -110,12 +110,26 @@ button.subircarnet:hover, button.encontrarcarnet:hover, button.subircarnet:activ
 .div-perdi input, .div-encontre input {
 	padding:10px;
 	text-align:center;
+	border:0px;
+	border-radius:12px;
+	opacity:.7;
+	transition:all .5s ease;
+}
+.div-perdi input:hover, .div-encontre input:hover {
+	opacity:1;
 }
 .div-encontre input[type="submit"], .div-perdi input[type="submit"] {
 	border:0px;
 	border-radius:12px;
 	padding:10px 0px;
+	width:40%;
+	display:block;
+	margin:20px auto;
+    background-color: rgba(219,87,5,1)!important;
+	color:#FFF;
+	opacity:1;	
 }
+
 
 #error {
 	color:#cc0000;
