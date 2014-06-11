@@ -44,12 +44,12 @@ mail("contacto@perdielcarnet.cl","My subject","sdfs",$headers);*/
 				//echo $query1;
 				$result1 = mysql_query($query1);
 				?>
-				<div id="exito" class="box fwidth ">
-				<div class="box fwidth text-center">
-				<i class="fa fa-smile-o fa-3x"></i>
-				
-				<p>¡Que suerte, alguien encontró tu carnet! Revisa tu correo registrado para ponerte en contacto.</p></div>
-				</div>
+        <div id="exito" class="box fwidth ">
+        <div class="box fwidth text-center">
+        <i class="fa fa-smile-o fa-3x"></i>
+        
+        <p>¡Que suerte, alguien encontró tu carnet! Revisa tu correo registrado para ponerte en contacto.</p></div>
+        </div>
 				<?php
 				
 				$admin_email =get_option('admin_email');
@@ -64,13 +64,12 @@ mail("contacto@perdielcarnet.cl","My subject","sdfs",$headers);*/
 		else
 		{
 		?>
-		<div id="error" class="box fwidth">
-            	<div class="box fwidth text-center">
-                	<i class="fa fa-exclamation-triangle fa-3x"></i>
-                
-            	<p>#penita, aún nadie encuentra tu carnet. Te recomendamos ir a sacar uno nuevo al <a href="https://www.registrocivil.cl/" target="_blank">Registro civil</a>. Te avisaremos si pasa algo ;)</p></div>
-            </div>
-		
+        <div id="error" class="box fwidth">
+            <div class="box fwidth text-center">
+            <i class="fa fa-exclamation-triangle fa-3x"></i>
+            <p>Amig@, revisa los únicos 2 campos que tenías que llenar, parece que te falta algo.</p></div>
+        </div>
+        
 		<?php
 		
 		}
@@ -147,8 +146,8 @@ mail("contacto@perdielcarnet.cl","My subject","sdfs",$headers);*/
     <link href="<?PHP echo $pluginpath; ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?PHP echo $pluginpath; ?>/css/font-awesome.css" rel="stylesheet">
     <link href="<?PHP echo $pluginpath; ?>/style.css" rel="stylesheet">
- 
-	
+
+
   	<div class="container">
          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
         	 <button type="button" class="btn btn-default fwidth encontrarcarnet">Perdí mi Carnet</button>
